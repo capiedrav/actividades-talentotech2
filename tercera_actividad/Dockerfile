@@ -3,6 +3,9 @@ FROM python:3.11-slim
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
+# update container packages
+RUN apt update -y && apt upgrade -y
+
 # create user app_user
 RUN addgroup --gid 1000 app_user && \
     adduser --uid 1000 --gid 1000 --disabled-password --gecos "" app_user --home /home/app_user

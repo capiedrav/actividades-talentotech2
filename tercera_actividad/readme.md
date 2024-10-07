@@ -1,6 +1,8 @@
 # TalentoTech - Tercera Actividad - Seguridad en Contenedores
 
-## Aplicación Basada en el Django REST Framework (DRF) [Quickstart Guide](https://www.django-rest-framework.org/tutorial/quickstart/)
+## Actividad basada en el video [Docker Security Best Practices](https://www.youtube.com/watch?v=9xz9sBjZwXs)
+
+Aplicación Basada en el Django REST Framework (DRF) [Quickstart Guide](https://www.django-rest-framework.org/tutorial/quickstart/).
 
 ### Como ejecutar
 
